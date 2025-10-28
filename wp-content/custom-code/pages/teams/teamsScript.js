@@ -1,5 +1,10 @@
 import { attachEmailHandlers } from "../../shared/js/utils.js";
-const dataLocation = "../../data"
+
+
+const dataLocation = "../../data";
+const peopleImagesLocation = `${dataLocation}/images/people`;
+const teamsDataLocation = `${dataLocation}/json/teamsData.json`;
+
 async function fetchTeams (pathname) {
   const res = await fetch(pathname);
   const data = await res.json();
@@ -35,7 +40,7 @@ async function displayTeams (pathname) {
 
             const memberImage = document.createElement('img')
             memberImage.classList.add('member-image')
-            memberImage.src = `${dataLocation}/images/${memberObject.image}.jpg`
+            memberImage.src = `${peopleImagesLocation}/${memberObject.image}.jpg`
             memberImage.alt = memberObject.name
             memberDiv.appendChild(memberImage)
 
@@ -76,7 +81,7 @@ async function displayTeams (pathname) {
 
 
 async function main() {
-    await displayTeams(`${dataLocation}/json/teamsData.json`);
+    await displayTeams(teamsDataLocation);
     attachEmailHandlers();
 }
 

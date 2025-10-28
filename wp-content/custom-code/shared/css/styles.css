@@ -105,6 +105,10 @@ button {
     transition: box-shadow 0.2s ease, transform 0.15s ease;
 }
 
+
+/* === RESEARCH === */
+
+/* don't change name without checking js*/
 #search-bar-wrapper {
     display: flex;
     justify-content: center;
@@ -125,13 +129,14 @@ button {
     min-width: 160px;
 }
 
+/* don't change name without checking js*/
 #year-filter-button:focus,
 #year-filter-button:hover{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
     outline: none;
 }
 
-
+/* don't change name without checking js*/
 #year-filter-button[aria-expanded="true"]{
     color: rgba(0, 0, 0, 0.7) !important;
     box-shadow: 0 1px 5px rgba(0,0,0,0.15) !important;
@@ -146,9 +151,9 @@ button {
     transition: transform 0.3s ease;
 }
 
-/* Expanded state â€” arrow points down */
+/* Expanded state arrow points down */
 #year-filter-button[aria-expanded="true"] .arrow {
-    
+    transform: rotate(0deg);
 }
 
 /* Dropdown list styling */
@@ -361,6 +366,10 @@ button {
     margin-bottom: 0;
 }
 
+
+/* === TEAMS SITE === */
+
+/* don't change name without checking js*/
 #teams {
     padding: 20px;
     background-color: var(--red-primary);
@@ -369,6 +378,7 @@ button {
     gap: 200px;
 }
 
+/* don't change name without checking js*/
 .team {
     max-width: calc(var(--member-image-max-width) * 4 + var(--gap-between-members) * 3);
     display: flex;
@@ -376,10 +386,13 @@ button {
     align-self: center;
     color: white;
 }
+
+/* don't change name without checking js*/
 .team *{
     color: white;
 }
 
+/* don't change name without checking js*/
 .team-name {
     font: var(--font-headings-secondary);
     margin-bottom: var(--team-name-margin-bottom);
@@ -387,11 +400,13 @@ button {
 
 }
 
+/* don't change name without checking js*/
 .team-description {
     margin-bottom: var(--team-description-margin-bottom);
     margin-top: 0;
 }
 
+/* don't change name without checking js*/
 .team-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 250px)) !important;
@@ -399,6 +414,7 @@ button {
     max-width: 100%;
 }
 
+/* don't change name without checking js*/
 .team-member {
     display: flex;
     flex-direction: column;
@@ -408,6 +424,7 @@ button {
     background: rgba(0, 0, 0, 0);
 }
 
+/* don't change name without checking js*/
 .member-image {
     max-width: 250;
     max-height: 300;
@@ -416,6 +433,7 @@ button {
     margin-top: 0;
 }
 
+/* don't change name without checking js*/
 .member-name {
     font-weight: 600;
     font-size: var(--member-name-font-size) !important;
@@ -435,6 +453,10 @@ button {
     text-transform: uppercase;
 }
 
+
+/* === MAIL BUTTON, ICON, LINK === */
+
+/* don't change name without checking js*/
 .email-wrapper,
 .email-link {
     background-color: transparent !important;
@@ -443,11 +465,15 @@ button {
     display: inline-block;
     line-height: 20px !important;
 }
+
+/* don't change name without checking js*/
 .email-wrapper {
     padding: 5px 0 0 0;
     font-size: 0;
     overflow: hidden;
 }
+
+/* don't change name without checking js*/
 .email-link {
     cursor: pointer;
     text-decoration: none;
@@ -455,6 +481,7 @@ button {
     transition-duration: 0.3s;
 }
 
+/* don't change name without checking js*/
 .material-symbols-outlined {
 	padding: 0;
     font-variation-settings:
@@ -470,7 +497,52 @@ button {
     color 0.2s;
 }
 
+/* don't change name without checking js*/
 .material-symbols-outlined:hover {
     transform: scale(1.1);
     color: var(--email-icon-hover-color);
+}
+
+/* === JOBS SITE PDF BOX === */
+.jobbox {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    padding: 30px 35px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.jobbox h1{
+    font-weight: 600;
+    text-transform: none;
+}
+
+/* don't change name without checking js*/
+.pdfbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+}
+
+/* don't change name without checking js*/
+.pdf-wrapper {
+    position: relative;
+    padding-top: 70%; 
+    height: 0;
+    overflow: hidden;
+    background: white;
+}
+
+/* don't change name without checking js*/
+.pdf-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }

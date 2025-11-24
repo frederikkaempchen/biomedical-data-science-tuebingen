@@ -1,1 +1,1 @@
-# QBiC-website
+# biomedical data science teaching

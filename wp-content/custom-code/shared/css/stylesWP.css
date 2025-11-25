@@ -388,20 +388,8 @@ button {
 }
 
 /* don't change name without checking js*/
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 250px)) !important;
-    gap: var(--gap-between-members);
-    max-width: 100%;
-}
-
-/* don't change name without checking js*/
 .team-member {
     display: flex;
-    flex-direction: column;
-    justify-content: left;
-    position: relative;
-    text-align: left;
     background: rgba(0, 0, 0, 0);
 }
 
@@ -415,6 +403,20 @@ button {
     object-position: center;
     margin-bottom: var(--member-image-margin-bottom);
     margin-top: 0;
+}
+
+.member-data {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .member-text {
+
+} */
+
+.member-icons {
+    display: flex;
+    flex-direction: row;
 }
 
 /* don't change name without checking js*/

@@ -135,6 +135,27 @@ button {
     width: 24px !important;
 }
 
+.material-symbols-outlined {
+	padding: 0;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' calc(400 * var(--email-icon-scale)),
+    'GRAD' 0,
+    'opsz' calc(24 * var(--email-icon-scale));
+    font-size: calc(24px * var(--email-icon-scale));
+    cursor: pointer;
+    color: var(--email-icon-color);
+    transition: 
+    transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.2s;
+}
+
+/* don't change name without checking js*/
+.material-symbols-outlined:hover {
+    transform: scale(1.1);
+    color: var(--email-icon-hover-color);
+}
+
 
 /* === RESEARCH === */
 
@@ -428,34 +449,45 @@ button {
 }
 
 /* don't change name without checking js*/
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 250px)) !important;
-    gap: var(--gap-between-members);
-    max-width: 100%;
-}
-
-/* don't change name without checking js*/
 .team-member {
     display: flex;
-    flex-direction: column;
-    justify-content: left;
-    position: relative;
-    text-align: left;
+    gap: 10px;
     background: rgba(0, 0, 0, 0);
 }
 
 /* don't change name without checking js*/
 .member-image {
-    max-width: 250;
-    max-height: 300;
-    width: 100%;
+    max-width: 250px;
+    max-height: 300px;
+    width: 30%;
     aspect-ratio: 5 / 6;
     object-fit: cover;
     object-position: center;
     margin-bottom: var(--member-image-margin-bottom);
     margin-top: 0;
 }
+
+.member-data {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .member-text {
+
+} */
+
+.member-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.material-symbols-outlined {
+    color: var(--red-primary);
+}
+.material-symbols-outlined:hover {
+    color: var(--red-primary);
+}
+
 
 /* don't change name without checking js*/
 .member-name {
@@ -478,26 +510,7 @@ button {
 }
 
 /* don't change name without checking js*/
-.material-symbols-outlined {
-	padding: 0;
-    font-variation-settings:
-    'FILL' 0,
-    'wght' calc(400 * var(--email-icon-scale)),
-    'GRAD' 0,
-    'opsz' calc(24 * var(--email-icon-scale));
-    font-size: calc(24px * var(--email-icon-scale));
-    cursor: pointer;
-    color: var(--email-icon-color);
-    transition: 
-    transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.2s;
-}
 
-/* don't change name without checking js*/
-.material-symbols-outlined:hover {
-    transform: scale(1.1);
-    color: var(--email-icon-hover-color);
-}
 
 /* === JOBS SITE PDF BOX === */
 .jobbox {

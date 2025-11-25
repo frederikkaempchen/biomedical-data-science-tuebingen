@@ -1,218 +1,140 @@
 {
-    "biopm" : {
-        "name" : "Bioinformatics Support  & Project Management (BioPM) Team",
-        "description" : "The BioPM Team is supporting end-users, primarily from the Campus of the University of Tübingen including the Faculty of Science (MNF) and at the Faculty of Medicine (MFT), but also from extern, with their projects running through the QBiC Core facility.  Specifically, the team is not only focused on the technical aspects of bioinformatics—such as primary data analysis using nf-core and more project-tailored downstream data analysis and visualization supporting publications—but also on the crucial  administrative and logistical aspects of running complex, often interdisciplinary projects. This includes important scientific project management tasks including consulting, designing experiments, coordinating with external data generation partners, handling business reports, managing user access to their data and providing end-users with detailed cost estimates. Further, the Team has to fulfill important Research Data Management (RDM) tasks, ensuring raw data is collected with associated and curated metadata to meet the FAIR principles. Thus the BioPM  team's role is multi-faceted, encompassing both the scientific and operational sides of Core facility projects.",
-        "members" : {
-            "team_member_0" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_1" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_2" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_3" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_4" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_5" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_6" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_7" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            }
-        }
+    "SUBGROUP_0" : "Head",
+    "head_of_department": {
+        "name": "Prof. Dr. Sven Nahnsen",
+        "title": "head",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "nahnsen",
+        "mail": "c3Zlbi5uYWhuc2VuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
     },
-    "rdds" : {
-        "name" : "Research & Development in Data Science (RDDS) Team",
-        "description" : "The RDDS Team is dedicated to developing reproducible bioinformatics workflows and computational methods – including data science and machine learning approaches -- with a focus on supporting the needs of the BioPM Team. We specialize in creating domain-specific Nextflow and nf-core workflows for Omics and Bioimaging data analysis. Beyond workflow development, our work includes quality control, systematic benchmarking, and advancing the overall workflow infrastructure to ensure reliable and high-quality results. We are also committed to environmentally sustainable research. To this end, we are developing a Nextflow plugin to estimate CO₂ emissions from workflow runs, aiming to reduce the carbon footprint of bioinformatics analyses at the University of Tübingen and across the entire nf-core community.",
-        "members" : {
-            "team_member_0" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_1" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_2" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_3" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_4" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_5" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_6" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_7" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            }
-        }
+
+    "SUBGROUP_1" : "PhD Candidates",
+    "team_member_0": {
+        "name": "Carolin Schwitalla",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "Y2Fyb2xpbi5zY2h3aXRhbGxhQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
     },
-    "itss" : {
-        "name" : "ITSS Team",
-        "description" : "We provide the technological backbone for QBiC by maintaining and expanding a secure, high-availability IT infrastructure. At the same time, we engineer bespoke software for the University of Tübingen’s high-throughput data management platform, supporting researchers throughout the entire data life cycle. Our solutions are designed with technical excellence and a strong focus on usability, making complex data management tasks seamless and effective. We believe in collaborative teamwork, where respect, support, and openness drive us forward. We value learning from setbacks as much as celebrating achievements—because every step contributes to our shared success. We aim to shape the future of research data management by creating an ecosystem that is not only reliable today but also ready for tomorrow. Our goal is to enable machine-actionable integration into emerging data spaces, ensuring that QBiC and the University of Tübingen remain at the forefront of digital research infrastructures. We envision data management solutions that empower science through interoperability, security, and user-centered design—building the foundation for the research of the future.",
-        "members" : {
-            "team_member_0" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_1" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_2" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_3" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_4" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_5" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_6" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_7" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            }
-        }
+    "team_member_1": {
+        "name": "Famke Bäuerle",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "ZmFta2UuYmFldWVybGVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
     },
-    "team_template" : {
-        "name" : "Template Team",
-        "description" : "A detailed overview of the team’s purpose, core functions, strategic objectives, key responsibilities, collaborative relationships within the organization, and any specialized tools, processes, or methodologies it employs.",
-        "members" : {
-            "team_member_0" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_1" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_2" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_3" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_4" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_5" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_6" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            },
-            "team_member_7" : {
-                "name" : "team member",
-                "title" : "title & scope of work",
-                "image" : "templateMember",
-                "mail" : "bmFtZS5zdXJuYW1lQHFiaWMuZGU="
-            }
-        }
+    "team_member_2": {
+        "name": "Jonas Scheid",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "am9uYXMuc2NoZWlkQHVuaS10dWViaW5nZW4uZGU="
+    },
+    "team_member_3": {
+        "name": "Josua Stadelmaier",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "am9zdWEuc3RhZGVsbWFpZXJAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+    },
+    "team_member_4": {
+        "name": "Julian Flesch",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "anVsaWFuLmZsZXNjaEBxYmljLnVuaS10dWViaW5nZW4uZGU="
+    },
+    "team_member_5": {
+        "name": "Mark Polster",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "IG1hcmsucG9sc3RlckBxYmljLnVuaS10dWViaW5nZW4uZGU="
+    },
+    "team_member_6": {
+        "name": "Steffen Lemke",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "c3RlZmZlbi5sZW1rZUB1bmktdHVlYmluZ2VuLmRl"
+    },
+    "team_member_7": {
+        "name": "Tabea Attig",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "dGFiZWEuYXR0aWdAdW5pLXR1ZWJpbmdlbi5kZQ=="
+    },
+    "team_member_8": {
+        "name": "Yuxin Ning",
+        "title": "PhD",
+        "image": "templateMember",
+        "mail": "eXV4aW4ubmluZ0B1bmktdHVlYmluZ2VuLmRl"
+    },
+
+    "SUBGROUP_2": "BSc and MSc Candidates",
+    "team_member_9": {
+        "name": "Abdulaziz Rustamov",
+        "title": "BSc",
+        "image": "templateMember",
+        "mail": "YWJkdWxheml6LnJ1c3RhbW92QHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+    },
+    "team_member_10": {
+        "name": "Annika Maier",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "YW5uaWsubWFpZXJAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+    },
+    "team_member_11": {
+        "name": "Carla Lopez-Martinez",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "Y2FybGEubG9wZXotbWFydGluZXpAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+    },
+    "team_member_12": {
+        "name": "Jana Hoffmann",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "amFuYTIuaG9mZm1hbm5Ac3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+    },
+    "team_member_13": {
+        "name": "Lorena Böhme",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "bG9yZW5hLmJvZWhtZUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+    },
+    "team_member_14": {
+        "name": "Nina Mayer",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "bmkubWF5ZXJAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+    },
+    "team_member_15": {
+        "name": "Sima Forghani",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "c2ltYS5mb3JnaGFuaUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+    },
+    "team_member_16": {
+        "name": "Sophia Gaupp",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "c29waGlhLmdhdXBwQHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+    },
+    "team_member_17": {
+        "name": "Sophie Kutschker",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "c29waGllLmt1dHNjaGtlckBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+    },
+    "team_member_18": {
+        "name": "Clara Bierwirth",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "Y2xhcmEuYmllcndpcnRoQHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+    },
+    "team_member_19": {
+        "name": "Tusheera Kumarasekara",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "dGh1c2hlZXJhLmt1bWFyYXNla2FyYUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+    },
+    "team_member_20": {
+        "name": "Ulrike-Beate Hunfeld",
+        "title": "MSc",
+        "image": "templateMember",
+        "mail": "dWxyaWtlLWJlYXRlLmh1bmZlbGRAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
     }
 }

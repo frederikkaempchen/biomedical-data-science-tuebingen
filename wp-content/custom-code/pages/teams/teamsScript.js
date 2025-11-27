@@ -19,8 +19,8 @@ async function displayTeams (pathname) {
 
     for (const [key, value] of Object.entries(members)) {
         if (String(key).includes("SUBGROUP")) {
-            const subgroupDiv = document.createElement('div')
-            subgroupDiv.textContent = value
+            const subgroupDiv = document.createElement('h1')
+            subgroupDiv.textContent = "// " + value
             subgroupDiv.classList.add("subgroup")
             teamDiv.appendChild(subgroupDiv)
         }
@@ -61,7 +61,7 @@ async function displayTeams (pathname) {
             
 
             const iconsDiv = document.createElement('div')
-            iconsDiv.classList.add('icons')
+            iconsDiv.classList.add('member-icons')
 
             if (value.links) {
                 for (const [linkType, link] of Object.entries(value.links)) {

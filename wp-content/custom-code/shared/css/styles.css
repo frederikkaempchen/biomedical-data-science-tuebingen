@@ -85,6 +85,7 @@ h2{
 p, div{
     font: var(--font-text-primary);
     color: var(--grey-primary);
+    line-height: 24px;
 }
 
 div{
@@ -409,28 +410,15 @@ button {
 }
 
 
-/* === TEAMS SITE === */
+/* === TEAM SITE === */
 
 /* don't change name without checking js*/
-#teams {
-    padding: 20px;
-    background-color: var(--red-primary);
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
-}
-
-/* don't change name without checking js*/
-.team {
+#team {
     max-width: calc(var(--member-image-max-width) * 4 + var(--gap-between-members) * 3);
     display: flex;
     flex-direction: column;
+    gap: 20px;
     align-self: center;
-    color: white;
-}
-
-/* don't change name without checking js*/
-.team *{
     color: white;
 }
 
@@ -451,20 +439,26 @@ button {
 /* don't change name without checking js*/
 .team-member {
     display: flex;
-    gap: 10px;
+    gap: 4%;
     background: rgba(0, 0, 0, 0);
 }
+@media (max-width: 600px) {
+    .team-member {
+        flex-direction: column;
+    }
+}
+
 
 /* don't change name without checking js*/
 .member-image {
-    max-width: 250px;
+    width: 25%;
+    height: 30%;
     max-height: 300px;
-    width: 30%;
+    max-width: 250px;
     aspect-ratio: 5 / 6;
     object-fit: cover;
     object-position: center;
     margin-bottom: var(--member-image-margin-bottom);
-    margin-top: 0;
 }
 
 .member-data {
@@ -472,9 +466,29 @@ button {
     flex-direction: column;
 }
 
+.member-name {
+    font-weight: 600;
+    font-size: var(--member-name-font-size) !important;
+    line-height: 1.2;
+    margin-bottom: var(--member-name-margin-bottom)!important;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* don't change name without checking js*/
+.member-title {
+    font-weight: 400;
+    font-size: var(--member-title-font-size) !important;
+    line-height: 1.2;
+    margin-bottom: var(--member-title-margin-bottom) !important;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
 .member-icons {
     display: flex;
     flex-direction: row;
+    gap: 5px;
 }
 
 .icon-svg {
@@ -517,24 +531,7 @@ button {
     color: var(--red-primary);
 }
 
-.member-name {
-    font-weight: 600;
-    font-size: var(--member-name-font-size) !important;
-    line-height: 1.2;
-    margin-bottom: var(--member-name-margin-bottom)!important;
-    margin-top: 0;
-    text-transform: uppercase;
-}
 
-/* don't change name without checking js*/
-.member-title {
-    font-weight: 400;
-    font-size: var(--member-title-font-size) !important;
-    line-height: 1.2;
-    margin-bottom: var(--member-title-margin-bottom) !important;
-    margin-top: 0;
-    text-transform: uppercase;
-}
 
 /* don't change name without checking js*/
 

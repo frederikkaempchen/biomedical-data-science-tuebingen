@@ -3,9 +3,14 @@
     "head_of_department": {
         "name": "Prof. Dr. Sven Nahnsen",
         "title": "head",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "image": "nahnsen",
-        "mail": "c3Zlbi5uYWhuc2VuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+        "links" : {
+            "mail": "c3Zlbi5uYWhuc2VuQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ==",
+            "scholar": "https://scholar.google.com/citations?user=DBqeRb4AAAAJ&hl=en",
+            "linkedin": "https://www.linkedin.com/in/nahnsen/",
+            "github": "https://github.com/svennahnsen"
+        }
     },
 
     "SUBGROUP_1" : "PhD Candidates",
@@ -13,55 +18,73 @@
         "name": "Carolin Schwitalla",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "Y2Fyb2xpbi5zY2h3aXRhbGxhQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+        "links": {
+            "mail": "Y2Fyb2xpbi5zY2h3aXRhbGxhQHFiaWMudW5pLXR1ZWJpbmdlbi5kZQ=="
+        }
     },
     "team_member_1": {
         "name": "Famke Bäuerle",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "ZmFta2UuYmFldWVybGVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "ZmFta2UuYmFldWVybGVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+        }
     },
     "team_member_2": {
         "name": "Jonas Scheid",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "am9uYXMuc2NoZWlkQHVuaS10dWViaW5nZW4uZGU="
+        "links": {
+            "mail": "am9uYXMuc2NoZWlkQHVuaS10dWViaW5nZW4uZGU="
+        }
     },
     "team_member_3": {
         "name": "Josua Stadelmaier",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "am9zdWEuc3RhZGVsbWFpZXJAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "am9zdWEuc3RhZGVsbWFpZXJAcWJpYy51bmktdHVlYmluZ2VuLmRl"
+        }
     },
     "team_member_4": {
         "name": "Julian Flesch",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "anVsaWFuLmZsZXNjaEBxYmljLnVuaS10dWViaW5nZW4uZGU="
+        "links": {
+            "mail": "anVsaWFuLmZsZXNjaEBxYmljLnVuaS10dWViaW5nZW4uZGU="
+        }
     },
     "team_member_5": {
         "name": "Mark Polster",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "IG1hcmsucG9sc3RlckBxYmljLnVuaS10dWViaW5nZW4uZGU="
+        "links": {
+            "mail": "IG1hcmsucG9sc3RlckBxYmljLnVuaS10dWViaW5nZW4uZGU="
+        }
     },
     "team_member_6": {
         "name": "Steffen Lemke",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "c3RlZmZlbi5sZW1rZUB1bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "c3RlZmZlbi5sZW1rZUB1bmktdHVlYmluZ2VuLmRl"
+        }
     },
     "team_member_7": {
         "name": "Tabea Attig",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "dGFiZWEuYXR0aWdAdW5pLXR1ZWJpbmdlbi5kZQ=="
+        "links": {
+            "mail": "dGFiZWEuYXR0aWdAdW5pLXR1ZWJpbmdlbi5kZQ=="
+        } 
     },
     "team_member_8": {
         "name": "Yuxin Ning",
         "title": "PhD",
         "image": "templateMember",
-        "mail": "eXV4aW4ubmluZ0B1bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "eXV4aW4ubmluZ0B1bmktdHVlYmluZ2VuLmRl"
+        }
     },
 
     "SUBGROUP_2": "BSc and MSc Candidates",
@@ -69,72 +92,96 @@
         "name": "Abdulaziz Rustamov",
         "title": "BSc",
         "image": "templateMember",
-        "mail": "YWJkdWxheml6LnJ1c3RhbW92QHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+        "links": {
+            "mail": "YWJkdWxheml6LnJ1c3RhbW92QHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+        }
     },
     "team_member_10": {
         "name": "Annika Maier",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "YW5uaWsubWFpZXJAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "YW5uaWsubWFpZXJAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        }
     },
     "team_member_11": {
         "name": "Carla Lopez-Martinez",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "Y2FybGEubG9wZXotbWFydGluZXpAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "Y2FybGEubG9wZXotbWFydGluZXpAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        }
     },
     "team_member_12": {
         "name": "Jana Hoffmann",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "amFuYTIuaG9mZm1hbm5Ac3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "amFuYTIuaG9mZm1hbm5Ac3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        }
     },
     "team_member_13": {
         "name": "Lorena Böhme",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "bG9yZW5hLmJvZWhtZUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        "links": {
+            "mail": "bG9yZW5hLmJvZWhtZUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        }
     },
     "team_member_14": {
         "name": "Nina Mayer",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "bmkubWF5ZXJAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "bmkubWF5ZXJAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        }
     },
     "team_member_15": {
         "name": "Sima Forghani",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "c2ltYS5mb3JnaGFuaUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        "links": {
+            "mail": "c2ltYS5mb3JnaGFuaUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        }
     },
     "team_member_16": {
         "name": "Sophia Gaupp",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "c29waGlhLmdhdXBwQHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+        "links": {
+            "mail": "c29waGlhLmdhdXBwQHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+        }
     },
     "team_member_17": {
         "name": "Sophie Kutschker",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "c29waGllLmt1dHNjaGtlckBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        "links": {
+            "mail": "c29waGllLmt1dHNjaGtlckBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        }
     },
     "team_member_18": {
         "name": "Clara Bierwirth",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "Y2xhcmEuYmllcndpcnRoQHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+        "links": {
+            "mail": "Y2xhcmEuYmllcndpcnRoQHN0dWRlbnQudW5pLXR1ZWJpbmdlbi5kZQ=="
+        }
     },
     "team_member_19": {
         "name": "Tusheera Kumarasekara",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "dGh1c2hlZXJhLmt1bWFyYXNla2FyYUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        "links": {
+            "mail": "dGh1c2hlZXJhLmt1bWFyYXNla2FyYUBzdHVkZW50LnVuaS10dWViaW5nZW4uZGU="
+        }
     },
     "team_member_20": {
         "name": "Ulrike-Beate Hunfeld",
         "title": "MSc",
         "image": "templateMember",
-        "mail": "dWxyaWtlLWJlYXRlLmh1bmZlbGRAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        "links": {
+            "mail": "dWxyaWtlLWJlYXRlLmh1bmZlbGRAc3R1ZGVudC51bmktdHVlYmluZ2VuLmRl"
+        }
     }
 }

@@ -3,6 +3,7 @@ import { attachEmailHandlers } from "/wp-content/custom-code/shared/js/utils.js"
 
 const dataLocation = "/wp-content/custom-code/data";
 const peopleImagesLocation = `${dataLocation}/images/people`;
+const assetImagesLocation = `${dataLocation}/images/assets`
 const teamsDataLocation = `${dataLocation}/json/teamsData.json`;
 
 async function fetchTeams (pathname) {
@@ -28,12 +29,14 @@ async function displayTeams (pathname) {
             memberDiv.classList.add('team-member')
             memberDiv.id = `${key}`
 
-            const memberImage = document.createElement('img')
-            memberImage.classList.add('member-image')
-            memberImage.src = `${peopleImagesLocation}/${value.image}.jpg`
-            memberImage.alt = value.name
-            memberDiv.appendChild(memberImage)
-
+            if (value.image) {
+                const memberImage = document.createElement('img')
+                memberImage.classList.add('member-image')
+                memberImage.src = `${peopleImagesLocation}/${value.image}.jpg`
+                memberImage.alt = value.name
+                memberDiv.appendChild(memberImage)
+            }
+            
             const memberDataDiv = document.createElement('div')
             memberDataDiv.classList.add('member-data')
 
@@ -53,27 +56,54 @@ async function displayTeams (pathname) {
                 memberText.textContent = value.text
                 memberDataDiv.appendChild(memberText)
             }
+
+            
             
 
             const iconsDiv = document.createElement('div')
             iconsDiv.classList.add('icons')
 
-            const mailDiv = document.createElement('div')
-            mailDiv.classList.add("email-wrapper")
+            if (value.links) {
+                for (const [linkType, link] of Object.entries(value.links)) {
+                    if (String(linkType) === "mail") {
+                        const mailDiv = document.createElement('div')
+                        mailDiv.classList.add("email-wrapper")
 
-            const mailLink = document.createElement('a')
-            mailLink.classList.add('email-link')
-            mailLink.setAttribute('aria-label', 'email');
-            mailLink.setAttribute('data-encoded-mail', value.mail);
+                        const mailLink = document.createElement('a')
+                        mailLink.classList.add('email-link')
+                        mailLink.setAttribute('aria-label', 'email');
+                        mailLink.setAttribute('data-encoded-mail', link);
 
-            const mailIcon = document.createElement('span')
-            mailIcon.classList.add('material-symbols-outlined')
-            mailIcon.textContent = "mail"
-            mailLink.appendChild(mailIcon)
+                        const mailIcon = document.createElement('span')
+                        mailIcon.classList.add('material-symbols-outlined')
+                        mailIcon.textContent = "mail"
+                        mailLink.appendChild(mailIcon)
 
-            mailDiv.appendChild(mailLink)
+                        mailDiv.appendChild(mailLink)
 
-            iconsDiv.appendChild(mailDiv)
+                        iconsDiv.appendChild(mailDiv)
+                    } else {
+                        const iconDiv = document.createElement('div')
+                        iconDiv.classList.add("icon-wrapper")
+
+                        const iconLink = document.createElement('a')
+                        iconLink.classList.add('icon-link')
+                        iconLink.href = link
+                        iconLink.setAttribute('aria-label', String(linkType));
+
+                        const iconSvg = document.createElement('img')
+                        iconSvg.classList.add('icon-svg')
+                        iconSvg.src = `${assetImagesLocation}/${String(linkType)}-icon.svg`
+                        iconLink.appendChild(iconSvg)
+
+                        iconDiv.appendChild(iconLink)
+
+                        iconsDiv.appendChild(iconDiv)
+                    }
+                }
+            }
+            
+            
 
             memberDataDiv.appendChild(iconsDiv)
             

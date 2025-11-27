@@ -1,0 +1,6 @@
+This icon was originally distributed under the Apache License 2.0.
+Source: 
+    website: svgrepo, 
+    collection: Grommet Interface Icons, 
+    author: grommet
+No license file was provided by the original author.

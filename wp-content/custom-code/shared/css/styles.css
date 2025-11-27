@@ -472,13 +472,42 @@ button {
     flex-direction: column;
 }
 
-/* .member-text {
-
-} */
-
 .member-icons {
     display: flex;
     flex-direction: row;
+}
+
+.icon-svg {
+    height: 24px;
+    width: 24px;
+    fill: var(--red-primary);
+    transition: transform 0.2s;
+}
+.icon-svg:hover {
+    transform: scale(1.1);
+}
+
+.icon-wrapper,
+.icon-link {
+    background-color: transparent !important;
+    margin: 0 !important;
+    border: 0 !important;
+    display: inline-block;
+}
+
+.icon-wrapper {
+    padding: 5px 0 0 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.icon-link {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition-duration: 0.3s;
+    height: 24px !important;
+    width: 24px !important;
 }
 
 .material-symbols-outlined {
@@ -488,8 +517,6 @@ button {
     color: var(--red-primary);
 }
 
-
-/* don't change name without checking js*/
 .member-name {
     font-weight: 600;
     font-size: var(--member-name-font-size) !important;

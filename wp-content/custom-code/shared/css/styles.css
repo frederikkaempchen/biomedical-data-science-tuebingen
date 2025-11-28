@@ -524,10 +524,10 @@ button {
     width: 24px !important;
 }
 
-.material-symbols-outlined {
+#team .material-symbols-outlined {
     color: var(--red-primary);
 }
-.material-symbols-outlined:hover {
+#team .material-symbols-outlined:hover {
     color: var(--red-primary);
 }
 

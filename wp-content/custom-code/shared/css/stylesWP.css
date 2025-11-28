@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 :root{
     /* colours */
@@ -67,6 +68,7 @@ button {
     transition: box-shadow 0.2s ease, transform 0.15s ease;
 }
 
+
 /* === MAIL BUTTON, ICON, LINK === */
 
 /* don't change name without checking js*/
@@ -93,6 +95,27 @@ button {
     transition-duration: 0.3s;
     height: 24px !important;
     width: 24px !important;
+}
+
+.material-symbols-outlined {
+	padding: 0;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' calc(400 * var(--email-icon-scale)),
+    'GRAD' 0,
+    'opsz' calc(24 * var(--email-icon-scale));
+    font-size: calc(24px * var(--email-icon-scale));
+    cursor: pointer;
+    color: var(--email-icon-color);
+    transition: 
+    transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.2s;
+}
+
+/* don't change name without checking js*/
+.material-symbols-outlined:hover {
+    transform: scale(1.1);
+    color: var(--email-icon-hover-color);
 }
 
 
@@ -348,28 +371,15 @@ button {
 }
 
 
-/* === TEAMS SITE === */
+/* === TEAM SITE === */
 
 /* don't change name without checking js*/
-#teams {
-    padding: 20px;
-    background-color: var(--red-primary);
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
-}
-
-/* don't change name without checking js*/
-.team {
+#team {
     max-width: calc(var(--member-image-max-width) * 4 + var(--gap-between-members) * 3);
     display: flex;
     flex-direction: column;
+    gap: 20px;
     align-self: center;
-    color: white;
-}
-
-/* don't change name without checking js*/
-.team *{
     color: white;
 }
 
@@ -390,19 +400,26 @@ button {
 /* don't change name without checking js*/
 .team-member {
     display: flex;
+    gap: 4%;
     background: rgba(0, 0, 0, 0);
 }
+@media (max-width: 600px) {
+    .team-member {
+        flex-direction: column;
+    }
+}
+
 
 /* don't change name without checking js*/
 .member-image {
-    max-width: 250;
-    max-height: 300;
-    width: 100%;
+    width: 25%;
+    height: 30%;
+    max-height: 300px;
+    max-width: 250px;
     aspect-ratio: 5 / 6;
     object-fit: cover;
     object-position: center;
     margin-bottom: var(--member-image-margin-bottom);
-    margin-top: 0;
 }
 
 .member-data {
@@ -410,16 +427,6 @@ button {
     flex-direction: column;
 }
 
-/* .member-text {
-
-} */
-
-.member-icons {
-    display: flex;
-    flex-direction: row;
-}
-
-/* don't change name without checking js*/
 .member-name {
     font-weight: 600;
     font-size: var(--member-name-font-size) !important;
@@ -439,27 +446,56 @@ button {
     text-transform: uppercase;
 }
 
-/* don't change name without checking js*/
-.material-symbols-outlined {
-	padding: 0;
-    font-variation-settings:
-    'FILL' 0,
-    'wght' calc(400 * var(--email-icon-scale)),
-    'GRAD' 0,
-    'opsz' calc(24 * var(--email-icon-scale));
-    font-size: calc(24px * var(--email-icon-scale));
-    cursor: pointer;
-    color: var(--email-icon-color);
-    transition: 
-    transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.2s;
+.member-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
-/* don't change name without checking js*/
-.material-symbols-outlined:hover {
-    transform: scale(1.1);
-    color: var(--email-icon-hover-color);
+.icon-svg {
+    height: 24px;
+    width: 24px;
+    fill: var(--red-primary);
+    transition: transform 0.2s;
 }
+.icon-svg:hover {
+    transform: scale(1.1);
+}
+
+.icon-wrapper,
+.icon-link {
+    background-color: transparent !important;
+    margin: 0 !important;
+    border: 0 !important;
+    display: inline-block;
+}
+
+.icon-wrapper {
+    padding: 5px 0 0 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.icon-link {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition-duration: 0.3s;
+    height: 24px !important;
+    width: 24px !important;
+}
+
+#team .material-symbols-outlined {
+    color: var(--red-primary);
+}
+#team .material-symbols-outlined:hover {
+    color: var(--red-primary);
+}
+
+
+
+/* don't change name without checking js*/
+
 
 /* === JOBS SITE PDF BOX === */
 .jobbox {
@@ -483,10 +519,10 @@ button {
 
 .job-cta a {
     display: inline;
-    color: var(--blue-primary);
+    color: var(--blue-primary)
 }
 .job-cta a:hover {
-    color: var(--lightblue-primary);
+    color: var(--lightblue-primary)
 }
 
 

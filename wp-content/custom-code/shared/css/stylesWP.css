@@ -53,6 +53,19 @@
     --email-icon-hover-color: rgb(167, 229, 255);
 }
 
+h1{
+    font: var(--font-headings-primary);
+    color: var(--red-primary);
+    text-transform: uppercase;
+}
+
+h2{
+    color: var(--red-primary);
+}
+
+p {
+    color: var(--grey-primary);
+}
 
 button {
     padding: 12px 20px;
@@ -378,7 +391,7 @@ button {
     max-width: calc(var(--member-image-max-width) * 4 + var(--gap-between-members) * 3);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     align-self: center;
     color: white;
 }
@@ -403,6 +416,7 @@ button {
     gap: 4%;
     background: rgba(0, 0, 0, 0);
 }
+
 @media (max-width: 600px) {
     .team-member {
         flex-direction: column;
@@ -412,10 +426,8 @@ button {
 
 /* don't change name without checking js*/
 .member-image {
-    width: 25%;
-    height: 30%;
-    max-height: 300px;
-    max-width: 250px;
+    max-height: 300px !important;
+    max-width: 250px !important;
     aspect-ratio: 5 / 6;
     object-fit: cover;
     object-position: center;

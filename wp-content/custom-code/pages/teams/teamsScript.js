@@ -30,10 +30,16 @@ async function displayTeams (pathname) {
             memberDiv.id = `${key}`
 
             if (value.image) {
+                /* const imageDiv = document.createElement('div')
+                imageDiv.classList.add('image-wrapper') */
+
+            
                 const memberImage = document.createElement('img')
                 memberImage.classList.add('member-image')
                 memberImage.src = `${peopleImagesLocation}/${value.image}.jpg`
                 memberImage.alt = value.name
+                //imageDiv.appendChild(memberImage)
+
                 memberDiv.appendChild(memberImage)
             }
             

@@ -1,0 +1,7 @@
+This image was originally distributed under the MIT License.
+Source: 
+    website: svgrepo, 
+    name: Person SVG Vector,
+    collection: Flexicon Sharp Interface Glyphs, 
+    author: blivesta
+No license file was provided by the original author.

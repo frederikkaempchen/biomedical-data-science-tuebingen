@@ -1,4 +1,57 @@
-[{
+[
+  {
+    "title": "Cellular and Extracellular MicroRNA Dysregulation in LRRK2-Linked Parkinson’s Disease",
+    "authors": [
+      "Felix Knab",
+      "Jun-Hoe Lee",
+      "Raja Nirujogi",
+      "Kevin Menden",
+      "Luca Braunger",
+      "Lambrianna Logarnudi",
+      "Benjamin Riebenbauer",
+      "Fatma Busra Isik",
+      "Anto Praveen Rajkumar",
+      "Stefan Czemmel",
+      "Julia Fitzgerald",
+      "Thomas Gasser",
+      "Christian Johannes Gloeckner"
+    ],
+    "journal": "Molecular Neurobiology",
+    "publisher": "Springer Science and Business Media LLC",
+    "doi": "10.1007/s12035-025-05379-2",
+    "url": "https://doi.org/10.1007/s12035-025-05379-2",
+    "year": 2025,
+    "volume": "63",
+    "issue": "1",
+    "pp": ""
+  },
+  {
+    "title": "RAG recombinase expression discriminates the development of natural killer cells",
+    "authors": [
+      "Jasmin Sprissler",
+      "Ulrich Pannicke",
+      "Eva-Maria Rump",
+      "Hubert Schrezenmeier",
+      "Nicolas Casadei",
+      "Michaela Pogoda",
+      "Laurence Kuhlburger",
+      "Morgana Barroso Oquendo",
+      "Stefan Czemmel",
+      "Klaus-Michael Debatin",
+      "Miriam Erlacher",
+      "Klaus Schwarz",
+      "Kerstin Felgentreff"
+    ],
+    "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media SA",
+    "doi": "10.3389/fimmu.2025.1607664",
+    "url": "https://doi.org/10.3389/fimmu.2025.1607664",
+    "year": 2025,
+    "volume": "16",
+    "issue": "",
+    "pp": ""
+  },
+  {
   "title": "nf-core/detaxizer: a benchmarking study for decontamination from human sequences",
   "authors": [
     "Jannik Seidel",

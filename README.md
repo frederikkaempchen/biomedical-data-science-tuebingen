@@ -1,1 +1,1 @@
-# biomedical data science teaching
+# chair for biomedical data science tübingen website

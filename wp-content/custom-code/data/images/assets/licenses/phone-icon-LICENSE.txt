@@ -1,0 +1,7 @@
+This icon was originally distributed under the MIT License
+Source: 
+    website: svgrepo, 
+    collection: Feather Icons, 
+    author: feathericons
+    name: Phone Call SVG Vector
+No license file was provided by the original author.

@@ -63,9 +63,6 @@ async function displayTeams (pathname) {
                 memberDataDiv.appendChild(memberText)
             }
 
-            
-            
-
             const iconsDiv = document.createElement('div')
             iconsDiv.classList.add('member-icons')
 
@@ -94,7 +91,8 @@ async function displayTeams (pathname) {
 
                         const iconLink = document.createElement('a')
                         iconLink.classList.add('icon-link')
-                        iconLink.href = link
+
+                        iconLink.href = linkType == "phone" ? `tel:${link}` : link
                         iconLink.setAttribute('aria-label', String(linkType));
 
                         const iconSvg = document.createElement('img')

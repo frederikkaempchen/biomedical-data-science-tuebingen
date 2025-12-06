@@ -12,6 +12,15 @@
             "linkedin": "https://www.linkedin.com/in/nahnsen/"
         }
     },
+    "julia-renye": {
+        "name": "Julia Renye",
+        "title": "assistant",
+        "text": "",
+        "image": "templateMember",
+        "links" : {
+            "mail": "anVsaWEucmVueWVAdW5pLXR1ZWJpbmdlbi5kZQ=="
+        }
+    },
 
     "SUBGROUP_1" : "PhD Candidates",
     "team_member_0": {

@@ -36,7 +36,7 @@ async function displayTeams (pathname) {
             
                 const memberImage = document.createElement('img')
                 memberImage.classList.add('member-image')
-                memberImage.src = `${peopleImagesLocation}/${value.image}.jpg`
+                memberImage.src = `${peopleImagesLocation}/${value.image}.webp`
                 memberImage.alt = value.name
                 //imageDiv.appendChild(memberImage)
 

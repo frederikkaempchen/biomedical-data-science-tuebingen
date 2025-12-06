@@ -1,6 +1,6 @@
 {
     "SUBGROUP_0" : "Head",
-    "head_of_department": {
+    "sven-nahnsen": {
         "name": "Prof. Dr. Sven Nahnsen",
         "title": "head",
         "text": "",
@@ -32,13 +32,16 @@
             "mail": "ZmFta2UuYmFldWVybGVAcWJpYy51bmktdHVlYmluZ2VuLmRl"
         }
     },
-    "team_member_2": {
+    "jonas-scheid": {
         "name": "Jonas Scheid",
         "title": "PhD",
         "text": "",
-        "image": "templateMember",
+        "image": "jonas-scheid",
         "links": {
-            "mail": "am9uYXMuc2NoZWlkQHVuaS10dWViaW5nZW4uZGU="
+            "mail": "am9uYXMuc2NoZWlkQHVuaS10dWViaW5nZW4uZGU=",
+            "scholar": "https://scholar.google.de/citations?user=-7DyHj4AAAAJ&hl=de",
+            "linkedin": "https://de.linkedin.com/in/jonas-scheid-58B43A212",
+            "github": "https://github.com/jonasscheid"
         }
     },
     "team_member_3": {

@@ -5,3 +5,5 @@ Source:
     collection: Flexicon Sharp Interface Glyphs, 
     author: blivesta
 No license file was provided by the original author.
+
+The image was originally a jpeg and was converterte to webp.

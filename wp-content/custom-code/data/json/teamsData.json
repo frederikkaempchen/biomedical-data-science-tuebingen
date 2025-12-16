@@ -89,9 +89,11 @@
     "team_member_7": {
         "name": "Tabea Attig",
         "title": "PhD",
-        "image": "templateMember",
+        "image": "tabea-attig",
         "links": {
-            "mail": "dGFiZWEuYXR0aWdAdW5pLXR1ZWJpbmdlbi5kZQ=="
+            "mail": "dGFiZWEuYXR0aWdAdW5pLXR1ZWJpbmdlbi5kZQ==",
+            "linkedin": "http://www.linkedin.com/in/tabea-attig-0437661ba",
+            "github": "https://github.com/Tabea01"
         } 
     },
     "team_member_8": {
